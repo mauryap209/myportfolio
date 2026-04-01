@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import './style.css'
 
 const Header = () => {
@@ -16,7 +17,7 @@ const Header = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo">
-          <a href="/">Pankaj_Maurya</a>
+          <Link to="/">Pankaj_Maurya</Link>
         </div>
 
         <div className="hamburger" onClick={toggleMenu}>
@@ -27,19 +28,19 @@ const Header = () => {
 
         <ul className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
           <li className="nav-item">
-            <a href="/" className="nav-link" onClick={handleLinkClick}>Home</a>
+            <Link to="/" className="nav-link" onClick={handleLinkClick}>Home</Link>
           </li>
           <li className="nav-item">
-            <a href="/about" className="nav-link" onClick={handleLinkClick}>About</a>
+            <Link to="/about" className="nav-link" onClick={handleLinkClick}>About</Link>
           </li>
           <li className="nav-item">
-            <a href="/contact" className="nav-link" onClick={handleLinkClick}>Contact</a>
+            <Link to="/contact" className="nav-link" onClick={handleLinkClick}>Contact</Link>
           </li>
           <li className="nav-item">
-            <a href="/services" className="nav-link" onClick={handleLinkClick}>Services</a>
+            <Link to="/services" className="nav-link" onClick={handleLinkClick}>Services</Link>
           </li>
           <li className="nav-item">
-            <a href="/login" className="nav-link" onClick={handleLinkClick}>Login</a>
+            <Link to="/login" className="nav-link" onClick={handleLinkClick}>Login</Link>
           </li>
         </ul>
       </div>
