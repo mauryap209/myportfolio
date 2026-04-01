@@ -30,16 +30,16 @@ const Header = () => {
             <a href="/" className="nav-link" onClick={handleLinkClick}>Home</a>
           </li>
           <li className="nav-item">
-            <a href="./page/about" className="nav-link" onClick={handleLinkClick}>About</a>
+            <a href="./pages/about" className="nav-link" onClick={handleLinkClick}>About</a>
           </li>
           <li className="nav-item">
-            <a href="./page/contact" className="nav-link" onClick={handleLinkClick}>Contact</a>
+            <a href="./pages/contact" className="nav-link" onClick={handleLinkClick}>Contact</a>
           </li>
           <li className="nav-item">
-            <a href="./page/services" className="nav-link" onClick={handleLinkClick}>Services</a>
+            <a href="./pages/services" className="nav-link" onClick={handleLinkClick}>Services</a>
           </li>
           <li className="nav-item">
-            <a href="./page/login" className="nav-link" onClick={handleLinkClick}>Login</a>
+            <a href="./pages/login" className="nav-link" onClick={handleLinkClick}>Login</a>
           </li>
         </ul>
       </div>
