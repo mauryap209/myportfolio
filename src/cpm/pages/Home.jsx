@@ -84,7 +84,7 @@ dan Linux installation & configuration</li>
         <div className="container">
           <h2 className="section-title">Let's Build Together</h2>
           <p className="section-text">Ready to take your project or IT environment to the next level? Contact me today for custom solutions and reliable support.</p>
-          <a href="/contact" className="cta-btn">Get in Touch</a>
+          <a href="./contact" className="cta-btn">Get in Touch</a>
         </div>
       </section>
     </div>
