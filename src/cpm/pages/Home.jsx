@@ -12,7 +12,7 @@ const Home = () => {
             Professional IT support and web development specialist with a strong technical background and customer-focused approach.
             Skilled in full-stack web development and infrastructure support, with hands-on experience in hardware assembly, OS installation, and user training.
           </p>
-          <a href="/contact" className="cta-btn">Contact Me</a>
+          <a href="./contact" className="cta-btn">Contact Me</a>
         </div>
       </section>
 
